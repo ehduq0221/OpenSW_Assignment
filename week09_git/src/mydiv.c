@@ -1,0 +1,6 @@
+#include "myapp.h"
+#include <stdio.h>
+
+double mydiv(double a, double b){
+    return (a / b);
+}
