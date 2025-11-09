@@ -1,4 +1,4 @@
-#include "myapp.h"
+#include "myops.h"
 #include <stdio.h>
 
 double mymul(double a, double b){
