@@ -25,4 +25,5 @@ Each directory corresponds to a specific assignment or lecture.
 * **`week08_make/`**: Introduction to Makefiles for project automation.
 * **`week08_make_v2/`**: Advanced Makefiles, including recursive call.
 * **`week09_git/`**: Assignments on Git version control (branching, merging).
-* **`week11_git/`**: file I/O System calls
+* **`week11_syscall/`**: file I/O System calls
+* **`week12_syscall_process/`**: Process System calls
