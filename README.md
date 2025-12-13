@@ -27,3 +27,4 @@ Each directory corresponds to a specific assignment or lecture.
 * **`week09_git/`**: Assignments on Git version control (branching, merging).
 * **`week11_syscall/`**: file I/O System calls
 * **`week12_syscall_process/`**: Process System calls
+* **`week13_syscall_signal/`**: Process System calls signal
