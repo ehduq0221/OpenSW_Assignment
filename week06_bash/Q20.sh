@@ -9,3 +9,5 @@ if [ $AGE -ge 25 ]; then
 else
     echo "당신은 25세 미만입니다."
 fi
+
+#read -p "Enter a number: " NUM

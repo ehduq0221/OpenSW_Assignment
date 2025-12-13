@@ -8,10 +8,6 @@ int main(int argc, char *const argv[]){
         printf("Usage : 03_execve, program_path, option_1 ...\n");
         return 0;
     }
-
-    // option의 개수
-    int option_num = argc - 2;
-
     
     // child의 pid
     pid_t child_pid;

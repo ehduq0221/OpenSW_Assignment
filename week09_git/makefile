@@ -29,10 +29,10 @@ $(LIB_DIR)/libmyops.so.1.0: $(OBJS)
 	$(LD) -shared -soname=libmyops.so.1 -o $@ $^ -lc
 
 $(LIB_DIR)/libmyops.so.1: $(LIB_DIR)/libmyops.so.1.0
-	$(LN) -s libmyops.so.1.0 $@
+	$(LN) -s $< $@
 
-$(LIB_DIR)/libmyops.so: $(LIB_DIR)/libmyops.so.1.0
-	$(LN) -s libmyops.so.1.0 $@
+$(LIB_DIR)/libmyops.so: $(LIB_DIR)/libmyops.so.1
+	$(LN) -s $< $@
 
 clean:
 	rm -rf $(OBJS)
